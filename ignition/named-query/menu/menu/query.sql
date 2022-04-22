@@ -1,0 +1,3 @@
+SELECT *
+FROM site_1.menus
+WHERE CODE_NO =:CODE_NO and ROW_NO = :ROW_NO;

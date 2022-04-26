@@ -1,0 +1,45 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "Site_01",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "b06268aae356ab5bf99e7a1ef33c9ad266cf9e9cac4cdee11a8886a835d72f4e",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "Engineering",
+      "timestamp": "2022-04-24T15:47:46Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "screen_id",
+        "sqlType": 3
+      },
+      {
+        "type": "Parameter",
+        "identifier": "button",
+        "sqlType": 3
+      }
+    ]
+  }
+}
